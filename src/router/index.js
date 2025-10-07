@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import VIfView from '../views/VIfView.vue'
 import VShowView from '../views/VShowView.vue'
 import VForView from '../views/VForView.vue'
@@ -13,6 +13,6 @@ const routes = [
 ]
 
 export default createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 })
